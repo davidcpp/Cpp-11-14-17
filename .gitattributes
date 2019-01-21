@@ -12,6 +12,11 @@
 ###############################################################################
 #*.cs     diff=csharp
 
+# Provide proper recognition of repository language
+
+* linguist-vendored
+*.h linguist-vendored=false
+
 ###############################################################################
 # Set the merge driver for project and solution files
 #
